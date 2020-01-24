@@ -1,7 +1,6 @@
-function wakeDog(dogName,dogBreed){
-  const String =`Wake ${dogName} the the ${dogBreed}`;
-  console.log(String);
-  return(String);
+var wakeDog = function(dogName="Byron", dogBreed="poodle") {
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+  return `Wake ${dogName} the ${dogBreed}`
 }
 
 
