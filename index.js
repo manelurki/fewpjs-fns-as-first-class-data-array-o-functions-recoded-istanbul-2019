@@ -6,7 +6,7 @@ function wakeDog(dogName,dogBreed){
 
 
 function walkToDog(dogName,dogBreed){
-  const String =`walk ${dogName} the the ${dogBreed}`;
+  const String =`Walk to the park with ${dogName} the the ${dogBreed}`;
   console.log(String);
   return(String);
 }
